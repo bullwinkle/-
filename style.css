@@ -1,0 +1,559 @@
+
+*{
+	margin: 0 ;
+	padding: 0;
+	}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+
+	
+}
+
+
+.header__logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-size:27px;
+	font-weight: 900;
+	margin-left:12%;
+	margin-top:56px;
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+nav {
+	margin-top:56px;
+	margin-left: 29%;
+}
+
+.topnav a {
+	color:#fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid #fcac45;
+}
+
+main {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	
+}
+
+main .main__welcome {
+	   background: #000;
+       text-align: center;
+       padding: 210px 0 410px 0;
+       color: #fff;
+
+       
+}
+main .main__welcome p {
+	color: #999999;
+	
+}
+
+
+main .main__welcome .MYCOMPANY{
+	color: #fcac45;
+
+	
+}
+
+main .main__welcome h1 {
+	font-size: 40px;
+	color: #b3b0b0;
+}
+
+
+
+
+main .main__about {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 100px 0 100px 0px;
+}
+
+.about__right {
+	margin-left: 175px;
+
+}
+
+.about__right h1 {
+	display: inline-block;
+	border-bottom: 3px solid #fcac45;
+	padding-bottom: 20px;
+}
+
+.about__right p {
+	display: inline-block;
+	padding-bottom: 20px;
+	margin: 30px 0px 50px 0;
+}
+
+.about__right li{
+	background: url(pic.png) 0px no-repeat;
+	padding-left: 25px;
+}
+
+main .main__welcome {
+	padding: 50px 0 50px 0;
+
+}
+
+.main__team {
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0 165px 0;
+}
+
+.main__team h1 {
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+
+ .line {
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 45.5%;
+	border-bottom: 105px;
+	margin: 30px;
+}
+.photo{
+	background: #d2d2d2;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+
+}
+.team__cards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+}
+
+.card {
+
+	margin: 0 40px;
+}
+
+.name {
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+
+.position {
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+
+.about__position {
+	font-size: 14px;
+}
+
+.services__cards {
+	display: flex;
+}
+
+.services__cards-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 105px 0 26px 0;
+}
+
+
+
+.main__services h1{
+	text-align: center;
+	padding: 100px 0 30px 0;
+	margin: 10px 5px;
+}
+
+
+.services__cards-item h4 {
+	padding: 30px 0 30px 0;
+
+}
+
+.our__clients {
+	display: flex;
+	background-color: #000;
+	color: #fff;
+}
+
+.our__clients h1 {
+    text-align: center;
+	padding: 100px 0 30px 0;
+	margin: 10px 5px;
+}
+
+.our__clients-item {
+
+	display: flex;
+	justify-content:center;
+	
+}
+
+.logo__name {
+	display: flex;
+	align-items: center;
+	height: 150px;
+	justify-content:center;
+	width: 200px;
+	font-size: 35px;
+
+
+
+}
+
+ #CHANEL,#LACOSTE {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rowdies', cursive;
+}
+
+#ZARA {
+	letter-spacing: 5px;
+}
+
+#ZARA,#GUERLAIN,#LANCOMEL {
+	font-family: 'Playfair Display', serif;
+
+}
+
+
+
+
+
+.our__work {
+	display: flex;
+
+
+}
+
+.our__work h1{
+	text-align: center;
+	padding: 100px 0 30px 0;
+	margin: 10px 5px;
+}
+
+.our__work-item {
+	display: flex;
+	align-items:flex-start;
+	width: 1100px;
+	height: 179px;
+	margin: 30px;
+	
+}
+
+
+.pic {
+	display: flex;
+     width: 1300px;
+	 height: 200px;
+}
+
+.our__work-item2 {
+	display: flex;
+	align-items:flex-start;
+	width: 1100px;
+	height: 179px;
+	margin: 30px;
+
+}
+
+.our__work-item3 {
+	display: flex;
+	align-items:flex-start;
+	width: 1100px;
+	height: 179px;
+	margin: 30px;
+}
+
+.our__testimonials {
+	display: flex;
+	background: #000;
+	color: #fff;
+
+
+}
+
+.our__testimonials h1 {
+    text-align: center;
+	padding: 100px 0 30px 0;
+	margin: 10px 5px;
+
+}
+
+ .our__testimonials p {
+	display: inline-block;
+	padding-bottom: 20px;
+	margin: 30px 187px 50px 157px;
+}
+
+.our__testimonials .Martin {
+	padding-bottom: 20px;
+	margin: 30px 11px 50px 468px;
+}
+
+.CONTACT__US {
+	display: flex;
+
+}
+
+.CONTACT__US h1 {
+	text-align: center;
+	padding: 100px 0 30px 0;
+	margin: 10px 5px;
+}
+
+.CONTACT__US p {
+	display: inline-block;
+	padding-bottom: 20px;
+	margin: 30px 187px 50px 157px;
+    padding: 10px 0 30px 0;
+}
+
+
+
+.form__container {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+
+.form {
+	/*display: flex;*/
+	flex-direction:column;
+	margin: 20px 0;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+}
+
+.label span {
+	margin: 5px 0;
+}
+
+
+.input {
+
+	width: 300px;
+	padding: 10px 10px;
+}
+
+.inputs-container {
+	display: flex;
+}
+
+
+.inputs-container .label {
+       flex-direction: column;
+}
+
+
+.textarea-container {
+	margin: 20px 0;
+}
+
+.textarea {
+	height: 150px;
+	resize: none;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.label span::after {
+       content: '*';
+       color:red;
+
+}
+
+.btn {
+	color: #ffffff;
+	padding: 10px 56px;
+	background-color: #fcac45;
+	border-bottom-color:#ffffff;
+}
+
+.form .btn {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 585px;
+}
+
+.main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.wrapper {
+     margin: 0 auto ;
+     max-width: 960px;
+
+}
+
+section {
+	width: 100%;
+}
+
+.section__top {
+	margin: 0 auto;
+	width: 100%;
+	margin-left: -91px;
+
+}
+
+
+
+
+
+
+
+/*100% ширина секшион*/
+/*wraper*/
+/*margin 0 avto*/
+/*max width величина  960px*/ 
+/*div content тут флексы только*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+}
+.label span {
+	margin: 5px 0;
+}
+
+.label span::after {
+	content: '*';
+	color: red;
+}
+
+.input {
+	width: 300px;
+	height: 50px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.textarea-container {
+	margin: 20px 0;
+}
+
+.textarea {
+	height: 150px;
+	resize: none;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.inputs-container {
+	display: flex;
+}
+
+.inputs-container label:last-child {
+	margin-left: 20px;
+}
+
+.btn {
+}
+
+.footer {
+	width: 100%;
+	height: 70px;
+	background: #222222;
+}*/

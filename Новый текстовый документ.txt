@@ -1,0 +1,27 @@
+<div class="form-container">
+	
+			<form class="form" id="FORM">
+
+				<div class="inputs-container">
+					<label class="label">
+						<span>Name</span>
+						<input type="text" class="input">
+					</label>
+					<label class="label">
+						<span>Email</span>
+						<input type="text" class="input">
+					</label>
+				</div>
+				<div class="textarea-container">
+					<label class="label">
+						<span>Message</span>
+						<textarea name="" id="" class="textarea">
+					</textarea>
+					</label>
+				</div>
+				<button type="submit" class="btn">
+					hello
+				</button>
+				
+			</form>
+		</div>
